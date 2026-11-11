@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "csvledger"
-version = "0.0.1"
+version = "0.0.2"
 description = "Long-form CSV tables that merge idempotently (max, replace-group, change-only, upsert), partitioned by year, in any MutableMapping store: a git-friendly history store with no dependencies."
 readme = "README.md"
 requires-python = ">=3.11"

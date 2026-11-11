@@ -291,9 +291,7 @@ def write_rows(store: MutableMapping, spec: TableSpec, rows: Iterable[dict]) -> 
 MANIFEST_KEY = "manifest.json"
 
 
-def manifest(
-    store: MutableMapping, tables: Mapping[str, TableSpec], **extra
-) -> dict:
+def manifest(store: MutableMapping, tables: Mapping[str, TableSpec], **extra) -> dict:
     """A description of the tables in ``store``: files, columns, keys.
 
     ``extra`` keys (a schema version, an update date) come first. A reader (a
